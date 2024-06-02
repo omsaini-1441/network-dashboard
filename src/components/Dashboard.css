@@ -1,0 +1,61 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Roboto", "Helvetica";
+  --secondary-color: #262234; /* Update this variable */
+  --xl-text-color: #c0bbd0; /* Update this variable */
+}
+
+.dashboard-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add this line */
+  margin-bottom: 40px;
+} 
+
+.dashboard-heading-icon {
+  font-size: 2rem;
+  color: var(--xl-text-color);
+  margin-right: 10px;
+}
+
+.dashboard-heading-text-container {
+  text-align: center; /* Add this line */
+} 
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 260px; /* Adjust the left margin to accommodate the sidebar width */
+}
+
+.dashboard-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--xl-text-color); /* This will now use the updated color */
+}
+
+.dashboard-section {
+  background-color: var(--secondary-color); /* This will now use the updated color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: var(--light-shadow1);
+  margin-bottom: 20px;
+}
+
+.dashboard-section-heading {
+  color: var(--lg-text-color); /* You may want to update this variable too */
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.dashboard-section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color-inverted); /* You may want to update this variable too */
+}

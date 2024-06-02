@@ -1,0 +1,183 @@
+[
+    {
+      "timestamp": "2023-01-30T14:22:00.123456Z",
+      "flow_id": 123456789,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.100",
+      "src_port": 12345,
+      "dest_ip": "192.168.1.1",
+      "dest_port": 80,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000001,
+        "rev": 1,
+        "signature": "Test alert signature",
+        "category": "Misc activity",
+        "severity": 1
+      }
+    },
+    {
+      "timestamp": "2023-03-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Network Scan",
+        "severity": 2
+      }
+    },
+    {
+      "timestamp": "2023-08-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Network Scan",
+        "severity": 2
+      }
+    },
+    {
+      "timestamp": "2023-05-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Network Scan",
+        "severity": 4
+      }
+    },
+    {
+      "timestamp": "2023-01-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Network Scan",
+        "severity": 2
+      }
+    },
+    {
+      "timestamp": "2023-05-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Misc activity",
+        "severity": 4
+      }
+    },
+    {
+      "timestamp": "2023-05-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Network Scan",
+        "severity": 1
+      }
+    },
+    {
+      "timestamp": "2023-05-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Misc activity",
+        "severity": 2
+      }
+    },
+    {
+      "timestamp": "2023-08-30T14:23:00.123456Z",
+      "flow_id": 987654321,
+      "in_iface": "eth0",
+      "event_type": "alert",
+      "src_ip": "192.168.1.101",
+      "src_port": 12346,
+      "dest_ip": "192.168.1.2",
+      "dest_port": 443,
+      "proto": "TCP",
+      "alert": {
+        "action": "allowed",
+        "gid": 1,
+        "signature_id": 1000002,
+        "rev": 1,
+        "signature": "Another test alert signature",
+        "category": "Server Update",
+        "severity": 1
+      }
+    }
+  ]
+  

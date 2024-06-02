@@ -1,0 +1,65 @@
+.sidebar {
+  background-color: var(--secondary-color); /* This will now use the updated color */
+  color: var(--side-text-color); /* You may want to update this variable */
+  width: 260px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  transition: all 0.3s ease;
+  z-index: 100;
+  box-shadow: var(--light-shadow1);
+  font-family: "Roboto", "Helvetica";
+}
+  
+  /* ... (rest of the styles remain the same) ... */
+  
+  .sidebar-header {
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--xl-text-color);
+  }
+  
+  .sidebar-body,
+  .sidebar-footer {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-menu {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    color: var(--side-text-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-link:hover,
+  .sidebar-link.active {
+    background-color: var(--side-link-hover-color);
+  }
+  
+  .sidebar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .sidebar-text {
+    flex: 1;
+  }
